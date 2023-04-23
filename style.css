@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+main{
+    position: relative;
+}
+
+.fondo{
+    width: 100vh;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent{
+    /* min-height: 0; */
+    max-width: 80%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrado horizontal */
+    width: 60%;
+    background-color: #a7c957;
+    border: 3px solid black; /* Borde negro */
+    border-radius: 40px; /* Las esquina, dependiendo de los pixeles, las vuelve mas circular */
+    position:absolute; /* posicion en donde se encuentra el contenedor */
+    top: 16vh; /* esto es como un padding pero del contenedor con el viewport */
+    left: 34vw; /* esto es como un padding pero del contenedor con el viewport */
+    padding: 20px;
+    display: inline-block;
+}
+
+.box{
+    border: 3px solid black;
+    
+}
+
+#name{
+    width: 20rem;
+    height: 2rem;
+    background-color: orange;
+    border-radius: 20px;
+    position: absolute;
+    /* text-align: center; */
+    padding: 20px;
+    font-size: 2.4rem;
+    top: -5%;
+    left: 25%;
+    display: flex; /* Agregado */
+    align-items: center; /* Agregado */
+}
+
+#name p {
+    margin: 0; /* Elimina el margen predeterminado de los párrafos */
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+
+#content{
+    background-color: green;
+    border-radius: 20px;
+    margin-top: 5%;
+    top: 20vh;
+    left: 30vw;
+    padding: 20px;
+    /* display: inline-block; */
+}
+
+.box img{
+    width: 48%;
+    border-radius: 40%;
+    box-shadow: 0px 0px 5px #00000050;
+    display: flex;
+    margin: auto;
+}
+
+.image{
+    margin-top: 1px;
+}
+
+.text{
+    margin-top: 10%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.box p{
+    display: flex;
+    align-items: center;
+    
+}
